@@ -1,0 +1,6 @@
+_*
+CMakeFiles
+*.cmake
+CMakeCache.txt
+Makefile
+Segmentation/Segmentation
