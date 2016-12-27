@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( Segmentation )
+find_package( OpenCV REQUIRED )
+add_executable( Segmentation main.cpp )
+target_link_libraries( Segmentation ${OpenCV_LIBS} )
